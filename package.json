@@ -10,6 +10,14 @@
     "typescript": "^5.7.2"
   },
   "scripts": {
-    "test": "jest"
+    "test": "npm run tsc -- --noEmit && jest",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.5",
+    "sequelize-typescript": "^2.1.6",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.0.3"
   }
 }
