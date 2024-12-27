@@ -1,10 +1,11 @@
-DDD - Tactical Modeling and Patterns: Order Repository Challenge
+DDD - Tactical Modeling and Patterns: 
 
+1 - Order Repository Challenge
+ * OrderRepository class fully implement the methods defined by the OrderRepositoryInterface and tests.
 
-In this challenge you must make the OrderRepository class fully implement the methods defined by the OrderRepositoryInterface. This entire implementation must be reproduced through testing.
+ -------------------
 
-After carrying out such implementation, submit your project, at this point all tests must be passing.
-
-Good luck.
-
-* The programming language for this challenge is TypeScript
+2 - Customer Events Challenge
+ * Handler1: EnviaConsoleLog1Handler. Mensagem: "Esse é o primeiro console.log do evento: CustomerCreated".
+ * Handler2: EnviaConsoleLog2Handler. Mensagem: "Esse é o segundo console.log do evento: CustomerCreated".
+ * Handler: EnviaConsoleLogHandler. Mensagem: "Endereço do cliente: {id}, {nome} alterado para: {endereco}".
